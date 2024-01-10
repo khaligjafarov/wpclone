@@ -67,6 +67,6 @@ body {
 }
 @media screen and (max-width: 390px) {
   #chat .chat {
-    width: 330px;
+    margin-left: 70px;
   }
 }/*# sourceMappingURL=style.css.map */
