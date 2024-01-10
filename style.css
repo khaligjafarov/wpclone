@@ -54,4 +54,14 @@ body {
 }
 #chat .text .sent h3 {
   cursor: pointer;
+}
+@media screen and (max-width: 1200px) {
+  #chat .chat {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #chat .chat {
+    width: 350px;
+  }
 }/*# sourceMappingURL=style.css.map */
