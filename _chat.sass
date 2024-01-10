@@ -1,0 +1,47 @@
+#chat
+    margin: 100px 0
+    .chat
+        border-radius: 20px
+        background-color: #9381ff
+        width: 550px
+        padding: 25px
+        margin: 20px 0
+
+    .message
+        height: 400px
+        padding: 10px
+        border-radius: 20px
+        background-color: #ffff
+        overflow: auto
+        height: 250px
+        &::-webkit-scrollbar
+            display: none
+        .end
+            text-align: end
+        .line
+            display: inline-block
+            margin-bottom: 10px
+            border-radius: 20px
+            background-color: #829fd7
+            padding: 10px
+            color: white
+            text-align: start
+            max-width: 50%
+
+    .text
+        margin-top: 20px
+        display: flex
+        justify-content: center
+        input
+            margin-right: 10px
+        .sent
+            border-radius: 20px
+            background-color: #ff9100
+            padding: 10px 25px
+            color: white
+            cursor: pointer
+            h3
+                cursor: pointer
+    @media screen and ( max-width: 1200px  )
+        .chat
+                    

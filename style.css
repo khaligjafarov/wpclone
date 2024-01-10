@@ -1,5 +1,57 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
-/*# sourceMappingURL=style.css.map */
+
+#chat {
+  margin: 100px 0;
+}
+#chat .chat {
+  border-radius: 20px;
+  background-color: #9381ff;
+  width: 550px;
+  padding: 25px;
+  margin: 20px 0;
+}
+#chat .message {
+  height: 400px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  overflow: auto;
+  height: 250px;
+}
+#chat .message::-webkit-scrollbar {
+  display: none;
+}
+#chat .message .end {
+  text-align: end;
+}
+#chat .message .line {
+  display: inline-block;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: #829fd7;
+  padding: 10px;
+  color: white;
+  text-align: start;
+  max-width: 50%;
+}
+#chat .text {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+#chat .text input {
+  margin-right: 10px;
+}
+#chat .text .sent {
+  border-radius: 20px;
+  background-color: #ff9100;
+  padding: 10px 25px;
+  color: white;
+  cursor: pointer;
+}
+#chat .text .sent h3 {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
