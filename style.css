@@ -44,6 +44,7 @@ body {
 }
 #chat .text input {
   margin-right: 10px;
+  border-radius: 20px;
 }
 #chat .text .sent {
   border-radius: 20px;
